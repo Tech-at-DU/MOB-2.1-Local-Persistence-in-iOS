@@ -26,11 +26,15 @@ Students by the end of the course will be able to ...
 
 ## Lessons
 
-**Course Dates:** Monday, May 31 – Wednesday, July 14, 2021 (7 weeks)
+**Course Dates:** Monday, Oct 18 – Friday, Dec 10 (8 weeks)
 
-**Class Times:** Monday, Wednesday at 4:00pm–5:30pm (12 class sessions)
+**Class Times:** Monday, Wednesday, and Friday at 3:40–5:30pm (24 class sessions)
 
-| Class |          Date          |                 Topics                  |
+Course schedule can be found in the [course syllabus]
+
+[course syllabus]: https://docs.google.com/spreadsheets/d/1Un2N9olJfie7xLyAN9CKMEtWycs59SAOmf16hxmSEto/edit#gid=0
+
+<!-- | Class |          Date          |                 Topics                  |
 |:-----:|:----------------------:|:---------------------------------------:|
 |  - |  Mon, May 31         | **No Class - Memorial Day**                  |
 |  1 |  Wed, June 2         | [Introduction to Persistence Technologies]   |
@@ -66,7 +70,7 @@ Students by the end of the course will be able to ...
 [Structured lab + final project intro]: Lessons/Lab/README.md
 [CloudKit]: Lessons/Lesson11/README.md
 [Cloud Kit Pt. 2]: Lessons/Lesson12/README.md
-[Core Data Notifications]: Lessons/Lesson13/README.md
+[Core Data Notifications]: Lessons/Lesson13/README.md -->
 
 ## Class Assignments
 
