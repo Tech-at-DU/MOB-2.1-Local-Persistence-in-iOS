@@ -40,7 +40,7 @@ class FileManagerFile {
     ///
     /// - Note: if the file does not exist, this method will create it. Otherwise, this
     /// method will override the file's contents
-    func save(contents: String) {
+    func save(string: String) {
         
     }
     
@@ -48,7 +48,7 @@ class FileManagerFile {
     ///
     /// - Note: if the file does not exist, this method will create it. Otherwise, this
     /// method will override the file's contents
-    func save(contents: Encodable) {
+    func save<T: Encodable>(encodable: T) {
         
     }
     
@@ -56,14 +56,14 @@ class FileManagerFile {
     ///
     /// - Note: if the file does not exist, this method will create it. Otherwise, this
     /// method will override the file's contents
-    func save(contents: Data) {
+    func save(data: Data) {
         
     }
     
     /// Read the contents of the file as `String`
     ///
     /// - Note: if the file does not exist, this method will return nil
-    func contents() -> String? {
+    func string() -> String? {
         fatalError("not implemented, yet")
     }
     
@@ -71,14 +71,14 @@ class FileManagerFile {
     ///
     /// - Note: if the file does not exist, this method will return nil. Or, if the stored contents
     /// is not the same as the decodable type, this method will return nil
-    func contents<T: Decodable>() -> T? {
+    func decodable<T: Decodable>() -> T? {
         fatalError("not implemented, yet")
     }
     
     /// Read the contents of the file as `Data`
     ///
     /// - Note: if the file does not exist, this method will return nil
-    func contents() -> Data? {
+    func data() -> Data? {
         fatalError("not implemented, yet")
     }
     
